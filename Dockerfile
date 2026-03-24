@@ -3,7 +3,7 @@ ARG PYTHON_VERSION=3.12
 FROM python:${PYTHON_VERSION} AS base
 
 LABEL authors="Andrii Shukalo"
-WORKDIR /app
+WORKDIR /app/devops_todolist
 COPY . .
 
 
