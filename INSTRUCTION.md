@@ -12,7 +12,7 @@ on your machine must be installed docker
     ````
 2. Run container from image
     ````
-   docker run -d -p 8000:8000 andriis9/todoapp:1.0.0
+   docker run -d -p 8000:8080 andriis9/todoapp:1.0.0
    ````
 
 ## Building image
