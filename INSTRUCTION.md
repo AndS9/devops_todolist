@@ -12,7 +12,7 @@ on your machine must be installed docker
     ````
 2. Run container from image
     ````
-   docker run -d -p 8000:8080 andriis9/todoapp:1.0.0
+   docker run -d -p 8080:8080 andriis9/todoapp:1.0.0
    ````
 
 ## Building image
@@ -27,5 +27,5 @@ Image based on python images
    docker build --build-arg PYTHON_VERSION=2.0.0 -t name:tag .
    ````
 ## Accessing application 
-You can access app from local browser via this url: http://localhost:8000
+You can access app from local browser via this url: http://localhost:8080
 

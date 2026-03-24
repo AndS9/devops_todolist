@@ -4,7 +4,7 @@ FROM python:${PYTHON_VERSION} AS base
 
 LABEL authors="Andrii Shukalo"
 WORKDIR /app
-RUN git clone https://github.com/mate-academy/devops_todolist
+COPY . .
 
 
 FROM python:${PYTHON_VERSION}-slim
